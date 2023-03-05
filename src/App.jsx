@@ -2,6 +2,7 @@ import "./App.css";
 import FormInput from "./components/FormInput";
 import Form from "./components/Form";
 import FormSelect from "./components/FormSelect";
+import LogsTable from "./components/LogsTable";
 
 function App() {
   return (
@@ -12,9 +13,7 @@ function App() {
           <FormSelect name="category" label="Category" />
         </Form>
       </div>
-      <div className="logs-container">
-        <h1>Logs</h1>
-      </div>
+      <LogsTable />
     </div>
   );
 }
